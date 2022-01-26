@@ -33,16 +33,13 @@ for (var i = 0; i < vegetables.length; i++) {
     console.log(vegetables[i])
 }
 
-const pet =
-{
+let pet ={
     name: "sam",
     breed: "husky/corgi",
 }
 
-pet.name;
-pet.breed;
 
-console.log(pet.name.breed);
+console.log(pet.name, pet.breed);
 
 var friends = [
     {
