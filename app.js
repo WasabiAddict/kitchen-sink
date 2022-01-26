@@ -19,10 +19,10 @@ function checkAge(name, age) {
         alert("Sorry " + name + ", you aren't old enough to view this page!")
     }
 }
-// checkAge("charles", 21);
-// checkAge("abby", 27);
-// checkAge("james", 18);
-// checkAge("john", 17);
+checkAge("charles", 21);
+checkAge("abby", 27);
+checkAge("james", 18);
+checkAge("john", 17);
 
 var vegetables = ["broccoli", "carrot", "squash", "potato"]
 console.log(vegetables[1])
