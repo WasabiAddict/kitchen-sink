@@ -73,6 +73,7 @@ function getLength(word) {
     return word.length
 }
 
+
 const length = getLength('hello world!!')
 alert(length)
 
