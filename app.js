@@ -1,18 +1,21 @@
-var firstName = 'David';
-const states = 50;
+function alertWord() {
+    alert("Hello World!!");
 
-console.log(states);
-// number of states
+    var firstName = 'David';
+    console.log(firstName)
 
-var a = 5 + 4;
-//variable a that has the result of 5+4
+    const states = 50;
+    console.log(states);
+    // number of states
 
-console.log(a);
-
-function sayHello() {
-    alert("Hello World!!")
+    var a = 5 + 4;
+    //variable a that has the result of 5+4
+    
+    console.log(a);
 }
-sayHello()
+alertWord();
+
+
 
 function checkAge(name, age) {
     if (age < 21) {
@@ -24,12 +27,10 @@ checkAge("abby", 27);
 checkAge("james", 18);
 checkAge("john", 17);
 
-var vegetables = ["broccoli", "carrot", "squash", "potato"]
-console.log(vegetables[1])
+var vegetables = ["broccoli", "carrot", "squash", "potato"];
 
-for (var i = 0;
-    i <= vegetables.length; i++) {
-    console.log(vegetables[i]);
+for (var i = 0; i < vegetables.length; i++) {
+    console.log(vegetables[i])
 }
 
 const pet =
@@ -40,6 +41,8 @@ const pet =
 
 pet.name;
 pet.breed;
+
+console.log(pet.name.breed);
 
 var friends = [
     {
